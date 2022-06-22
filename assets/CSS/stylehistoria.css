@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(160, 119, 90);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color:beige;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu{
+    width: 900px;
+    margin:0 auto;
+
+}
+.menu img{
+    width: 50px;
+    height: 50 px;
+    border-radius: 100%;
+}
+
+nav{
+    margin-right:  5rem;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 25px;
+    padding:25px 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color:burlywood;
+    font-weight: bold;
+}
+
+
+
+#grid .biografia{
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+
+}
+#grid .biografia{
+    background-color: whitesmoke;
+    color:peru;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#grid .conocenos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:peru;
+    text-align: center;
+    font-size: medium;
+}
+#grid .conocenos img{
+    background-color: whitesmoke;
+    width: 200px;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+
+
+#cierre .pie{
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: beige;
+    }
+    .conocenos{
+        width: 100%;;
+    }
+}
