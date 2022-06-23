@@ -44,26 +44,15 @@ nav ul li a{
 }
 
 .tiendas{
-    color:chocolate;
-    font-family: sans-serif;
+    color:black;
+    font-family: 'Titillium Web', sans-serif;
     font-size: large;
     text-align: center;
 }
 
-#informacion{
-    background-color: whitesmoke;
-    color:black;
-    display: flex;
-    justify-content: center;
+.card mb-3 {
     text-align: center;
-    font-family:initial;
-}
-
-#informacion .mapa img{
-    width: 60%;
-    border: 5px solid black;
-   
-
+    font-family: 'Titillium Web', sans-serif; 
 }
 
 

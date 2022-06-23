@@ -94,13 +94,13 @@ text-decoration: none;
     background-color:whitesmoke;
 }
 .main img{
-    width: 100%;
+    width: 70%;
     height:auto;
 }
     
 .main{
     background: linear-gradient(beige, chocolate);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Anek Malayalam', sans-serif;
     text-align: center;
     width:100%;
     border: 3px solid brown;

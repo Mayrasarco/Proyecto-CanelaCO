@@ -91,11 +91,16 @@ nav ul li a{
     grid-area: imagen2;
 }
 
+.boton{
+    background-color: black;
+    color:white;
+}
+
 
 
 .cafeteras{
     background-color: beige;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Source Code Pro', monospace;
     border: 5px solid chocolate;
     text-align: center;
     padding: 2rem;
