@@ -43,9 +43,17 @@ nav ul li a{
     font-weight: bold;
 }
 
+#list-example{
+    text-decoration: none;
+}
+
+
 
 #cafeteria {
     background-color: whitesmoke;
+}
+#cafeteria h1{
+    font-family: 'Prompt', sans-serif; 
 }
 #cafeteria .contenido{
     color:peru;

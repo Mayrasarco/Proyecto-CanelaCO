@@ -42,6 +42,8 @@ nav ul li a{
     color:burlywood;
     font-weight: bold;
 }
+
+
 #envio{
     background-color: whitesmoke;
 
@@ -58,6 +60,17 @@ nav ul li a{
     border: 8px solid peru;
 }
 
+.container{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    color:black;
+  
+}
+
+.table{
+    background-color: bisque;
+    border: 2px solid black;
+}
 
 
 

@@ -44,9 +44,14 @@ nav ul li a{
 }
 
 #suscripto .referencia{
-    background-color: whitesmoke;
+    background-color:beige;
     text-align: center;
-    color:peru
+    color:peru;
+
+
+}
+#suscripto h1{
+    font-family: 'Indie Flower', cursive;
 }
 #suscripto .referencia img{
     width: 100px;

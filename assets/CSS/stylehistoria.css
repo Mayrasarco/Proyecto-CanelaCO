@@ -59,6 +59,16 @@ nav ul li a{
     text-align: center;
 }
 
+.card{
+    
+    background-color: blanchedalmond;
+  
+}
+.card-body{
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+
 #grid .conocenos{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:peru;
