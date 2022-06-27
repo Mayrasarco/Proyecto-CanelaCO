@@ -44,10 +44,19 @@ nav ul li a{
     font-weight: bold;
     font-size: 20px;
 }
+nav ul li:hover{
+    background-color: brown;
+    transition: 5s;
+}
+ nav ul li a:visited{
+    color:peru;
+ }
+
 
 h1{
-    color:chocolate;
+    color:beige;
     text-align: center;
+    font-family:'Indie Flower', cursive;
 }
 /*animacion*/
 @keyframes efecto {

@@ -46,7 +46,11 @@ nav ul li a{
 }
 nav ul li:hover{
     background-color: brown;
+    transition: 5s;
 }
+nav ul li a:visited{
+    color:peru;
+ }
 
 
 
