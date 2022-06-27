@@ -41,11 +41,12 @@ nav ul li a{
     text-decoration: none;
     color:burlywood;
     font-weight: bold;
+    font-size: 20px;
 }
 
 
 #envio{
-    background-color: whitesmoke;
+    background-color: beige;
 
 }
 #envio .transporte img{
@@ -64,6 +65,7 @@ nav ul li a{
     font-family: 'Source Code Pro', monospace;
     text-align: center;
     color:black;
+    background-color: beige;
   
 }
 
@@ -84,6 +86,9 @@ nav ul li a{
 }
 
 @media screen and (max-width: 768px){
+    nav ul li a{
+        font-size: 14px;
+    }
     body{
         background-color: beige;
     }

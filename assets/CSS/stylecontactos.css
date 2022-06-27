@@ -41,6 +41,7 @@ nav ul li a{
     text-decoration: none;
     color:burlywood;
     font-weight: bold;
+    font-size: 20px;
 }
 
 #suscripto .referencia{
@@ -66,6 +67,9 @@ nav ul li a{
 }
 
 @media screen and (max-width: 768px){
+    nav ul li a {
+        font-size: 14px;
+    }
     body{
         background-color: beige;
     }

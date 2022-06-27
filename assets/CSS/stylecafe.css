@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
+    
 }
 
 body{
@@ -41,6 +42,7 @@ nav ul li a{
     text-decoration: none;
     color:burlywood;
     font-weight: bold;
+    font-size: 20px;
 }
 
 #list-example{
@@ -52,17 +54,16 @@ nav ul li a{
 #cafeteria {
     background-color: whitesmoke;
 }
-#cafeteria h1{
-    font-family: 'Prompt', sans-serif; 
-}
-#cafeteria .contenido{
+
+
+.contenido{
     color:peru;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
 
 }
 #cafeteria .filtros{
-    color:chocolate;
+    color:whitesmoke;
 }
 
 
@@ -75,6 +76,7 @@ nav ul li a{
     "texto2 imagen2";
     gap: 2px;
     font-size: large;
+    background-color: whitesmoke;
     color: black;
     font-style: oblique;
     text-align: center;
@@ -153,7 +155,13 @@ nav ul li a{
     background-color: whitesmoke;
 }
 
-@media (max-width: 1300px){
+@media (max-width: 768px){
+    nav ul li a {
+        font-size: 14px;
+    }
+    body{
+        background-color: beige;
+    }
     .grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -171,17 +179,22 @@ nav ul li a{
         max-width: 1080px;
         margin: auto;
         align-items: center;
-    }
-    
-    body{
         background-color: beige;
     }
-    .grid img{
+    
+    
+    .grid-img{
         width:100%;
 
+    }
+    .cafe {
+        width:100%;
     }
     .cafeteras{
         display: none;
 
+    }
+    .footer{
+        width: 100%;
     }
 }
