@@ -110,8 +110,15 @@ nav ul li a:visited{
     grid-area: imagen2;
 }
 
-.boton{
-    background-color: black;
+
+.boton1{
+    background-color:EB887,FFF8DC ;
+    color:white;
+    
+}
+
+.boton2{
+    background-color:D2B48C,EB887 ;
     color:white;
 }
 
