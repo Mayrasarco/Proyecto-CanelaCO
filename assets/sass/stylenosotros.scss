@@ -1,0 +1,94 @@
+body{
+    background-color: whitesmoke;
+}
+header{
+    background-color:beige;
+    width:100%;
+    min-height: 70px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    menu{
+        width: 900px;
+        margin:0 auto;
+        & img{
+            width: 50px;
+            height: 50 px;
+            border-radius: 100%;
+            nav{
+                margin-right:  5rem;
+                ul{
+                    display: flex;
+                    li{
+                        list-style: none;
+                        margin-left: 25px;
+                        padding:25px 0;
+                        &:hover{
+                            background-color: brown;
+                            transition: 5s;
+                            a{
+                                text-decoration: none;
+                                color:burlywood;
+                                font-weight: bold;
+                                font-size: 20px;
+                                &:visited{
+                                    color:peru;
+                                }
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}
+
+
+#grid .biografia{
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+@mixin fontStyle ($color){
+    background-color: whitesmoke;
+        color:peru;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+
+    
+}
+#grid .biografia{
+        font-size: 35px;
+        @include fontStyle(black)
+    }
+
+}
+.card{
+    background-color: blanchedalmond;
+  & body{
+    font-family: 'Anek Malayalam', sans-serif;
+
+  }
+
+  @extend .card ;
+    text-align:center;
+    display:block;
+  }
+
+  
+#grid .conocenos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:peru;
+    text-align: center;
+    font-size: medium;
+    & img{
+        background-color: whitesmoke;
+    width: 200px;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+#cierre .pie{
+    text-align: center;
+    background-color: whitesmoke;
+}
