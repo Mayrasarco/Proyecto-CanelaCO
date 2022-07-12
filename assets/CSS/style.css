@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(160, 119, 90);
+    background-color: burlywood;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
@@ -180,7 +180,7 @@ text-decoration: none;
    
     
     nav ul li a{
-        font-size: 14px;
+        font-size: 12px;
     }
     body{
         background-color: beige;
@@ -195,12 +195,13 @@ text-decoration: none;
     .contenidoimagen img{
         width: 50%;
     }
+    .instagram iframe{
+        width:80%;
+
+    }
     
     }
-    .instagram{
-        display:none;
-    }
-
+    
 
     
 
