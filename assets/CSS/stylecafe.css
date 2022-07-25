@@ -16,18 +16,29 @@ header{
     min-height: 70px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding:10px;
     
 }
 .menu{
     width: 900px;
     margin:0 auto;
+    display: flex;
+    align-items: center;
 
 }
 .menu img{
     width: 50px;
     height: 50 px;
     border-radius: 100%;
+}
+.checkboton{
+    font-sixe: 30px;
+    color:white;
+    display: none;
+}
+#check{
+    display: none;
 }
 
 nav{
@@ -46,9 +57,11 @@ nav ul li a{
     color:burlywood;
     font-weight: bold;
     font-size: 20px;
+    padding-right: 10px;
 }
 nav ul li:hover{
     background-color: brown;
+    
     transition: 5s;
 }
 nav ul li a:visited{
@@ -64,7 +77,28 @@ nav ul li a:visited{
 #cafeteria {
     background-color: whitesmoke;
 }
-
+h1{
+    font-size: 70px;
+    color:beige;
+    text-align: center;
+}
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+h2{
+    text-align: center;
+}
+.bolsas-columna{
+    margin: 5px;
+}
+.bolsas .contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
 
 .contenido{
     color:peru;
@@ -77,43 +111,6 @@ nav ul li a:visited{
 }
 
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "texto1 imagen1"
-    "texto2 imagen2";
-    gap: 2px;
-    font-size: large;
-    background-color: whitesmoke;
-    color: black;
-    font-style: oblique;
-    text-align: center;
-    max-width: 1080px;
-    margin: auto;
-    align-items: center;
-    
-
-
-}
-
-.texto1{
-    grid-area: texto1;
-}
-.img1{
-    grid-area: imagen1;
-}
-.texto2{
-    grid-area: texto2;
-}
-.img2{
-    grid-area: imagen2;
-}
-
-
-
-
 
 .cafeteras{
     background-color: beige;
@@ -121,6 +118,7 @@ nav ul li a:visited{
     text-align: center;
     padding: 2rem;
     justify-content: center;
+    border: 2px solid blanchedalmond;
 }
 
 
@@ -143,52 +141,50 @@ nav ul li a:visited{
     header{
         flex-direction: column;
     }
+    .checkboton{
+        display: flex;
+    }
+    nav{
+        padding: 0px 30px;
+    }
+    ul{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 80px;
+        text-align: center;
+        flex-direction: column;
+    }
+    nav ul li{
+        margin: 20 px 0;
+    }
     nav ul li a {
-        font-size: 14px;
+        font-size: 20px;
+    }
+    #check:checked ~ul{
+        left: 0;
     }
     body{
         background-color: beige;
     }
-    
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: 
-        "texto1"
-        "imagen1"
-        "texto2"
-        "imagen2";
-        gap: 2px;
-        font-size: large;
-        color: black;
-        font-style:normal;
-        text-align: center;
-        max-width: 1080px;
-        margin: auto;
-        align-items: center;
-        background-color: beige;
-     
-        
-    }
-     .texto1{
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
 
-     
-    .grid img{
-        width: 80%;
-    
+    .contenedor{
+        width: 100%;
+        margin: auto;
+    }
+    .img{
+        width: 100%;
+    }
+    .bolsas-columna{
+        margin: 5px;
+    }
+    .bolsas .contenedor{
+        display: grid;
     }
     
     
-        
     
-    
-    .footer{
+   .footer{
         width: 100%;
     }
 }

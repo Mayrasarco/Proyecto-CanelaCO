@@ -125,29 +125,31 @@ text-decoration: none;
 
     
 }
-
-#contenido {
-    background-color: beige;
-    font-family:monospace;
+.h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:peru;
     text-align: center;
-    
-    
+    font-size: medium;
 }
+#grid .material img{
+    background-color: whitesmoke;
+    width: 50%;
+    height: auto;
+    row-gap: 1;
+  
+}
+
+
+    
+    
+
 #contenido .imagen img{
     width: 500px;
     height: auto;
     row-gap: 1;
 }
-.contenidoimagen img{
-    width: 500px;
-    filter: grayscale(1);
 
 
-}
-.contenidoimagen img:hover{
-    filter:none;
-}
     
 
 #redes{
@@ -192,15 +194,14 @@ text-decoration: none;
     .main-img{
         width:100%;
     }
-    .contenidoimagen img{
-        width: 50%;
+    
     }
     .instagram iframe{
         width:80%;
 
     }
     
-    }
+    
     
 
     
