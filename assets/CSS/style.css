@@ -125,17 +125,26 @@ text-decoration: none;
 
     
 }
-.h3{
+.contenido{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:peru;
     text-align: center;
     font-size: medium;
 }
-#grid .material img{
+.grid .granos{
+    display:grid;
+    
+    
+}
+#grid .granos img{
+    display: grid;
     background-color: whitesmoke;
-    width: 50%;
+    width: 30%;
     height: auto;
-    row-gap: 1;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    
   
 }
 
@@ -143,11 +152,6 @@ text-decoration: none;
     
     
 
-#contenido .imagen img{
-    width: 500px;
-    height: auto;
-    row-gap: 1;
-}
 
 
     
@@ -193,6 +197,9 @@ text-decoration: none;
     }
     .main-img{
         width:100%;
+    }
+    .granos{
+        display: none;
     }
     
     }
