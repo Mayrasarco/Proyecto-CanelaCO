@@ -1,8 +1,4 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-}
+
 
 body{
     background-color: burlywood;
@@ -29,30 +25,7 @@ header{
     
 }
 
-nav{
-    margin-right:  5rem;
-}
-nav ul {
-    display: flex;
-}
-nav ul li{
-    list-style: none;
-    margin-left: 25px;
-    padding:25px 0;
-}
-nav ul li a{
-    text-decoration: none;
-    color:burlywood;
-    font-weight: bold;
-    font-size: 20px;
-}
-nav ul li:hover{
-    background-color: brown;
-    transition: 5s;
-}
-nav ul li a:visited{
-    color:peru;
- }
+
 
 
 

@@ -1,9 +1,3 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-    
-}
 
 body{
     background-color:burlywood ;
@@ -54,11 +48,31 @@ h2{
     text-align: center;
 }
 .bolsas-columna{
+    background-color: white;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.bolsas__button{
+    margin-bottom: 1rem;
+    width: 4rem;
+    font-size: 2;
+}
+
 .bolsas .contenedor{
     display: grid;
     grid-template-columns: repeat(2,50%);
+}
+
+.grid-contenedor{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 20px;
+}
+.grid-contenedor .bolsas{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contenido{
