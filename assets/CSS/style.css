@@ -1,78 +1,88 @@
-
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: burlywood;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header{
-    background-color:beige;
-    width:100%;
+
+header {
+    background-color: beige;
+    width: 100%;
     min-height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-}
-.menu{
-    width: 900px;
-    margin:0 auto;
 
 }
-.menu img{
+
+.menu {
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+.menu img {
     width: 50px;
     height: 50 px;
     border-radius: 100%;
 }
 
-nav{
-    margin-right:  5rem;
+nav {
+    margin-right: 5rem;
 }
+
 nav ul {
     display: flex;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-left: 25px;
-    padding:25px 0;
+    padding: 25px 0;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
-    color:burlywood;
+    color: burlywood;
     font-weight: bold;
     font-size: 20px;
 }
-nav ul li:hover{
+
+nav ul li:hover {
     background-color: brown;
     transition: 5s;
 }
- nav ul li a:visited{
-    color:peru;
- }
 
-
-h1{
-    color:beige;
-    text-align: center;
-    font-family:'Indie Flower', cursive;
+nav ul li a:visited {
+    color: peru;
 }
+
+
+h1 {
+    color: beige;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
 /*animacion*/
 @keyframes efecto {
     0% {
-        width:  50px;
+        width: 50px;
         height: 200px;
         opacity: 3;
 
     }
+
     100% {
         width: 100%;
         height: 100px;
     }
 }
+
 .box-animacion {
     width: 200px;
     animation-name: efecto;
@@ -90,126 +100,120 @@ h1{
     list-style: none;
     position: relative;
     display: inline-block;
-    
+
 }
 
 
 
 #encabezado .menu ul li a {
-color: burlywood;
-text-decoration: none;
+    color: burlywood;
+    text-decoration: none;
 }
 
-  
+
 
 #presentacion {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
-.main img{
+
+.main img {
     width: 70%;
-    height:auto;
+    height: auto;
 }
-    
-.main{
+
+.main {
     background: linear-gradient(beige, chocolate);
     font-family: 'Anek Malayalam', sans-serif;
     text-align: center;
-    width:100%;
+    width: 100%;
     border: 3px solid brown;
 }
-#presentacion .info{
-    width:100%;
+
+#presentacion .info {
+    width: 100%;
     padding: 20px;
     border: 5px;
     background-color: bisque;
 
-    
+
 }
-.contenido{
+
+.contenido {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:peru;
+    color: peru;
     text-align: center;
     font-size: medium;
 }
-.grid .granos{
-    display:grid;
-    
-    
+
+.grid .granos {
+    display: grid;
+
+
 }
-#grid .granos img{
+
+#grid .granos img {
     display: grid;
     background-color: whitesmoke;
     width: 30%;
     height: auto;
     float: left;
-    justify-content: center;
-    align-items: center;
-    
+    justify-content:space-around;
   
+
 }
 
 
-    
-    
-
-
-
-    
-
-#redes{
+#redes {
     background-color: beige;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: chocolate;
     text-align: center;
 }
-#redes.instagram iframe{
+
+#redes.instagram iframe {
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     display: block;
 
 }
 
-#cierre .pie{
+#cierre .pie {
     text-align: center;
     background-color: whitesmoke;
-    
+
 
 }
 
-  
+
 @media screen and (max-width: 768px) {
-    header{
+    header {
         flex-direction: column;
-        
-        
+
+
     }
-   
-    
-    nav ul li a{
+
+
+    nav ul li a {
         font-size: 12px;
     }
-    body{
+
+    body {
         background-color: beige;
     }
-    main{
-        width:100%;
+
+    main {
+        width: 100%;
         display: none;
     }
-    .main-img{
-        width:100%;
-    }
-    .granos{
-        display: none;
-    }
-    
-    }
-    .instagram iframe{
-        width:80%;
 
+    .main-img {
+        width: 100%;
     }
-    
-    
-    
 
     
+}
 
+.instagram iframe {
+    width: 80%;
+
+}

@@ -24,6 +24,14 @@ header{
     border-radius: 100%;
 }
 
+.encabezado{
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0px auto;
+ 
+}
+
 
 
 
@@ -78,4 +86,7 @@ header{
         background-color: beige;
     }
     
+    .encabezado{
+        display: none;
+    }
 }
