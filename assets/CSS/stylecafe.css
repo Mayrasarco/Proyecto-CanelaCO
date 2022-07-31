@@ -119,32 +119,8 @@ h2{
 }
 
 @media (max-width: 768px){
-    header{
-        flex-direction: column;
-    }
-    .checkboton{
-        display: flex;
-    }
-    nav{
-        padding: 0px 30px;
-    }
-    ul{
-        position: absolute;
-        width: 100%;
-        height: auto;
-        top: 80px;
-        text-align: center;
-        flex-direction: column;
-    }
-    nav ul li{
-        margin: 20 px 0;
-    }
-    nav ul li a {
-        font-size: 20px;
-    }
-    #check:checked ~ul{
-        left: 0;
-    }
+    
+    
     body{
         background-color: beige;
     }

@@ -1,27 +1,23 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     background-color: burlywood;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header {
-    background-color: beige;
-    width: 100%;
-    min-height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.bgNav{
+    color: burlywood;
+}
+a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  ;
 
 }
 
 .menu {
     width: 900px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -68,6 +64,10 @@ h1 {
     font-family: 'Indie Flower', cursive;
 }
 
+.title{
+    color: beige;
+}
+
 /*animacion*/
 @keyframes efecto {
     0% {
@@ -84,6 +84,7 @@ h1 {
 }
 
 .box-animacion {
+    z-index: 100;
     width: 200px;
     animation-name: efecto;
     animation-duration: 3s;
@@ -186,19 +187,13 @@ h1 {
 
 
 @media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-
-
-    }
-
-
-    nav ul li a {
-        font-size: 12px;
-    }
-
+    
     body {
         background-color: beige;
+    }
+    
+    .title{
+        color:brown;
     }
 
     main {

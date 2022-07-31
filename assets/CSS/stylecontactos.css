@@ -1,26 +1,21 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-}
+
 
 body{
     background-color: burlywood;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header{
-    background-color:beige;
-    width:100%;
-    min-height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
+.bgNav{
+    color: burlywood;
 }
+a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  ;
 
+}
 .menu{
     width: 900px;
     margin:0 auto;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -58,22 +53,8 @@ header{
     body{
         background-color: beige;
     }
-    
-    nav{
-        display: block;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-    }
-    .checkbtn{
-        display: block;
-    }
-    nav ul{
-        display: block;
-        position: fixed;
-        top: 70px;
-        left: -100%;
-    }
+   
+   
     }
     
 
